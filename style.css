@@ -1,0 +1,63 @@
+  .card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    justify-content: space-between;
+  }
+
+  body {
+    background-image: url("https://img.freepik.com/free-photo/watercolor-paper-texture_1194-6432.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1696464000&semt=ais");
+    background-repeat: no-repeat;
+    background-size: 1000%;
+    position: relative;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 200px;
+    background-color: transparent;
+    color: rgb(236, 234, 234);
+    border: 2px solid rgb(220, 220, 220);
+    
+  }
+
+  input {
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    font-weight: 900;
+    border-radius: 200px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    outline: none;
+  }
+
+  header {
+    display: flex;
+    width: 90%;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgb(254, 254, 254);
+    padding: 10px;
+    border-radius: 20px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50px;
+  }
+
+  section {
+    display: flex;
+    margin: 10% 10%;
+  }
+
+
+.h1 {
+  color: aliceblue;
+  
+}
